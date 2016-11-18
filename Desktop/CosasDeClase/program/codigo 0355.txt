@@ -1,0 +1,54 @@
+int legalidad = 0;
+if (minuto >=0 && minuto <= 59){
+ legalidad = legalidad + 1;
+}
+ if (hora >= 0 && hora <=23){
+  legalidad = legalidad + 1;
+}
+  if (dia >= 0 && dia <=30) {
+   legalidad = legalidad +1;
+}
+   if (mes >=0 && mes <=12) {
+    legalidad = legalidad +1;
+}
+    if (annio >=0 && annio <= 99){
+     legalidad = legalidad + 1;
+}
+
+     
+    
+   
+  
+ 
+if (legalidad = 5) {
+ minuto.setValor(minuto);
+ hora.setValor(hora);
+ dia.setValor(dia);
+ mes.setValor(mes);
+ annio.setValor(annio);
+
+
+booolean seDebeCambiarElMomentoTemporal = true;
+ if (minutos > 59 || minutos < 0) {
+  seDebeCambiarElMomentoTemporal = false;
+  }
+ if (hora > 23 || horas < 0) {
+  seDebeCambiarElMomentoTemporal = false;
+  }
+ if (dia > 30 || dia < 0) {
+  seDebeCambiarElMomentoTemporal= false;
+  }
+ if (mes > 12 || mes < 0) {
+  seDebeCambiarElmomentoTemporal = false;
+  }
+ if (annio >99 || annio < 0) {
+  seDEbeCambiarElMomentoTemporal = false;
+                  minutos.setValue(nuevoMinuto);
+		  horas.setValue(nuevaHora);
+		  dia.setValor(nuevoDia);
+		  mes.setValor(nuevoMes);
+		  anyo.setValor(nuevoAnyo);
+  }
+ 
+ 
+

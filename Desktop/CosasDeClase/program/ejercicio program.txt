@@ -1,0 +1,9 @@
+ if (a + b ==((a * b) - 740)) {
+   invitar copa
+}
+
+else {
+
+   invitar chupitos
+
+}

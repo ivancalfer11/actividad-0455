@@ -1,0 +1,10 @@
+float, double= decimales 
+long = numrs enteros mas largos
+char= caracteres
+
+EJERCICIOS DEL DIA 14 DE OCTUBRE
+
+public boolean sendWhatsapp(String mensaje, long number)
+
+public float average(int number1, int number2);
+
